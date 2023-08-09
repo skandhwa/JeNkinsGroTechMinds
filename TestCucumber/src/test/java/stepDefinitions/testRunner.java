@@ -9,7 +9,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/java/resources",
 glue= {"stepDefinitions"},monochrome=true,
-tags="@regression",
+tags="@smoke",
 
 plugin= {"pretty","html:target/HtmlReports/index.html",
 		"json:target/CucumberReports/cucumber.json",
